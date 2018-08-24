@@ -1,0 +1,59 @@
+- Installing Tensorflow 1.4 and Python 3.6.2
+
+  NumPy
+
+- gRPC
+python -m pip install grpcio
+
+- future, also installable with pip
+pip install future
+
+- Firebase
+pip install python-firebase
+
+- pyaudio
+pip install pyaudio
+
+- pyttsx3
+pip install pyttsx3
+
+- google-cloud-core, google-cloud-speech, google-api-core, google-auth, gcloud
+installing google-cloud-core should install the other dependencies
+
+    - Additionally, a Google Cloud JSON file must be used with an path variable to authenticate Google Cloud API
+
+mine is labled 'GOOGLE_APPLICATION_CREDENTIALS' and points to the same directory listed for 'PYTHON_PATH' below
+'C:\Users\G\Desktop\ChatLearner-master\google-api-key.json'
+
+- PROJECT_ROOT
+Here, an environment path variable (on Windows) must be set to point at the project folder,
+  it is used to tell the program where to find all the project files during runtime
+
+mine is labled as 'PYTHON_PATH' and points to 'C:\Users\Conversational-Chatbot\ChatbotV1'
+
+
+
+********************************************
+	RUN  
+********************************************
+python botui.py
+enter message in CLI 
+
+
+cd webui
+
+cd server
+
+RUN-->  python chatservice.py
+
+
+
+
+********************************************
+	TRAINING  
+********************************************
+python bottrainer.py
+
+
+
+
